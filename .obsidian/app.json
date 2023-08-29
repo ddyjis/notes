@@ -1,0 +1,11 @@
+{
+  "showFrontmatter": true,
+  "foldHeading": false,
+  "foldIndent": false,
+  "showLineNumber": true,
+  "alwaysUpdateLinks": true,
+  "newLinkFormat": "absolute",
+  "userIgnoreFilters": [
+    ".github/"
+  ]
+}
