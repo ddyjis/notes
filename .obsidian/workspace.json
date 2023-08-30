@@ -11,8 +11,13 @@
             "id": "15db6ee79e848586",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "20230829185108.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "20230829185108.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "20230829185108.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -107,7 +114,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "20230829185108.md"
+              }
             }
           }
         ]
@@ -123,11 +132,12 @@
       "graph:Open graph view": false,
       "command-palette:Open command palette": false,
       "random-note:Open random note": false,
-      "templater-obsidian:Templater": false
+      "zk-prefixer:Create new unique note": false
     }
   },
-  "active": "7f3b512f5c97e9a5",
+  "active": "15db6ee79e848586",
   "lastOpenFiles": [
+    "20230829185108.md",
     "pbcopy"
   ]
 }
