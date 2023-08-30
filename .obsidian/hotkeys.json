@@ -55,5 +55,13 @@
       ],
       "key": "T"
     }
+  ],
+  "zk-prefixer": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "N"
+    }
   ]
 }
