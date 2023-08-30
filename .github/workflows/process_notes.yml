@@ -29,6 +29,14 @@ jobs:
             const extractWikilinks = markdown =>
               Array.from(new Set([...markdown.matchAll(WIKILINK_REGEX)].map(match => match[1])));
 
+            const extractTitle = markdown => {
+              const frontmatter = markdown.match(/^---\n([\s\S]*?)\n---/);
+              if (!frontmatter) return null;
+              const title = frontmatter[1].match(/title:\s*(.*)/);
+              if (!title) return null;
+              return title[1].replace(/['"]/g, '');
+            };
+
             fs.readdirSync(process.cwd())
               .filter(filename => FILENAME_REGEX.test(filename))
               .forEach(filename => {
@@ -38,8 +46,9 @@ jobs:
 
                 const wikilinks = extractWikilinks(body);
                 wikilinks.forEach(toId => mappings.push({from: id, to: toId}));
+                const title = extractTitle(body) || id;
 
-                notes[id] = {body, references: wikilinks};
+                notes[id] = {body, title};
               });
 
               Object.keys(notes).forEach(id => {
