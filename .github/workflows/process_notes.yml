@@ -1,3 +1,4 @@
+# Modified from https://github.com/lumen-notes/lumen/blob/f542812adc7ab2c1a23cb2cae1228ae7f34d5b98/.github/workflows/lumen.yml
 name: Process Notes
 on: [push]
 jobs:
