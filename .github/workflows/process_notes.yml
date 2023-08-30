@@ -1,0 +1,53 @@
+name: Process Notes
+on: [push]
+jobs:
+  process-notes:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Process notes
+        run: |
+          const fs = require('fs');
+          const path = require('path');
+
+          const FILENAME_REGEX = /.+\.md$/;
+          const WIKILINK_REGEX = /\[\[([^\]]+)\|([^\]]+)\]\]/g;
+
+          const notes = {};
+          const mappings = [];
+
+          const extractWikilinks = markdown =>
+          	Array.from(new Set([...markdown.matchAll(WIKILINK_REGEX)].map(match => match[1])));
+
+          fs.readdirSync(process.cwd())
+            .filter(filename => FILENAME_REGEX.test(filename))
+            .forEach(filename => {
+              const id = path.basename(filename, ".md");
+
+              const body = fs.readFileSync(filename, "utf-8");
+
+              const wikilinks = extractWikilinks(body);
+              wikilinks.forEach(toId => mappings.push({from: id, to: toId}));
+
+              notes[id] = {body, references: wikilinks};
+            });
+
+            Object.keys(notes).forEach(id => {
+              notes[id]["referenced"] = mappings
+                .filter(({to}) => to === id)
+                .map(mapping => mapping.from);
+            });
+
+            if (!fs.existsSync(".metadata")) {
+              fs.mkdirSync(".metadata")
+            };
+
+            fs.writeFileSync(".metadata/notes.json", JSON.stringify(notes));
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'GitHub Action'
+          git config --global user.email 'action@github.com'
+          git add .
+          git commit -m 'Generate notes.json'
+          git push
