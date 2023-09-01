@@ -7,5 +7,6 @@
   "newLinkFormat": "absolute",
   "userIgnoreFilters": [
     ".github/"
-  ]
+  ],
+  "propertiesInDocument": "source"
 }
