@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20230829185108.md",
+                "file": "20230905182219.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "20230829185108.md",
+                "file": "20230905182219.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "20230829185108.md",
+                "file": "20230905182219.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -115,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "20230829185108.md"
+                "file": "20230905182219.md"
               }
             }
           }
@@ -138,9 +138,17 @@
   },
   "active": "15db6ee79e848586",
   "lastOpenFiles": [
+    "20230905183030.md",
+    "20230905182129.md",
+    "20230905182219.md",
+    "20230829185108.md",
+    "20230905182010.md",
+    "20230905181837.md",
+    "20230905181416.md",
+    "20230905181647.md",
+    "20230905181514.md",
     "20230905163648.md",
     "20230905163618.md",
-    "20230829185108.md",
     "20230905163307.md",
     "20230831225332.md",
     "20230905163234.md",
