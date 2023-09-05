@@ -13,28 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20230829215222.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0be85bfb65cc4175",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20230831190140.md",
+                "file": "20230829185108.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "20230831190140.md",
+                "file": "20230829185108.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "20230831190140.md",
+                "file": "20230829185108.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "20230831190140.md"
+                "file": "20230829185108.md"
               }
             }
           }
@@ -150,17 +136,21 @@
       "zk-prefixer:Create new unique note": false
     }
   },
-  "active": "0be85bfb65cc4175",
+  "active": "15db6ee79e848586",
   "lastOpenFiles": [
-    "20230831225332.md",
-    "20230831230222.md",
-    "20230831190140.md",
+    "20230905163648.md",
+    "20230905163618.md",
     "20230829185108.md",
+    "20230905163307.md",
+    "20230831225332.md",
+    "20230905163234.md",
+    "20230831230222.md",
+    "20230829215741.md",
+    "20230829215222.md",
+    "20230831190140.md",
     "20230831185014.md",
     "20230831184856.md",
-    "20230829215741.md",
     "20230831172634.md",
-    "20230829215222.md",
     "pbcopy"
   ]
 }
