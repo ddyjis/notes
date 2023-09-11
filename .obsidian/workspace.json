@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "09931308cac4d1e5",
+        "id": "1fae0c55dfb6343e",
         "type": "tabs",
         "children": [
           {
-            "id": "1fffbf9f55147a5a",
+            "id": "00dcd09e51763585",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20230906112745.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "20230906112745.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "20230906112745.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -114,9 +107,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "20230906112745.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -136,9 +127,12 @@
       "zk-prefixer:Create new unique note": false
     }
   },
-  "active": "1fffbf9f55147a5a",
+  "active": "00dcd09e51763585",
   "lastOpenFiles": [
     "20230906110216.md",
+    "20230910085426.md",
+    "20230910014412.md",
+    "20230906112745.md",
     "20230906110152.md",
     "20230906110023.md",
     "20230906105654.md",
@@ -161,9 +155,6 @@
     "20230905182219.md",
     "20230905182129.md",
     "20230905182010.md",
-    "20230905181837.md",
-    "20230905181647.md",
-    "20230905181514.md",
     "pbcopy"
   ]
 }
