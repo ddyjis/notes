@@ -4,5 +4,6 @@
   "textFontFamily": "iA Writer Mono S",
   "monospaceFontFamily": "iA Writer Mono S",
   "translucency": false,
-  "theme": "moonstone"
+  "theme": "obsidian",
+  "cssTheme": "Obsidian Nord"
 }
