@@ -11,8 +11,13 @@
             "id": "05fd50fcdb62ca7a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "20230929005758.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "20230929005758.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "20230929005758.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -107,7 +114,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "20230929005758.md"
+              }
             }
           },
           {
@@ -139,12 +148,14 @@
   },
   "active": "05fd50fcdb62ca7a",
   "lastOpenFiles": [
-    "20230925235245.md",
-    "20230918233440.md",
-    "20230926230011.md",
     "20230918222805.md",
-    "20230923165842.md",
     "20230923172901.md",
+    "20230929005758.md",
+    "20230926230011.md",
+    "20230918233440.md",
+    "20230929003522.md",
+    "20230925235245.md",
+    "20230923165842.md",
     "20230923172940.md",
     "20230925232619.md",
     "20230925235139.md",
@@ -163,8 +174,6 @@
     "20230905181647.md",
     "20230905163307.md",
     "20230905182010.md",
-    "20230905231714.md",
-    "20230905182219.md",
     "pbcopy"
   ]
 }
