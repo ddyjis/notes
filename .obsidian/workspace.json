@@ -11,8 +11,26 @@
             "id": "b57832605706a893",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "20231025003336.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "86fc5d2dba103929",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20230906110216.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +62,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "MOC",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,8 +79,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -82,6 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "20231025003336.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "20231025003336.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +127,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "20231025003336.md"
+              }
             }
           },
           {
@@ -140,7 +161,11 @@
   },
   "active": "b57832605706a893",
   "lastOpenFiles": [
+    "20230906110216.md",
+    "20231025003336.md",
     "20230829185108.md",
+    "20231025002842.md",
+    "20231025002321.md",
     "20230929005758.md",
     "20230906105539.md",
     "20230829215741.md",
@@ -161,11 +186,7 @@
     "20230905163307.md",
     "20230905231714.md",
     "20230905182219.md",
-    "20230906110216.md",
     "20230831225332.md",
-    "20231022001947.md",
-    "20231022001631.md",
-    "20231018095840.md",
     "pbcopy"
   ]
 }
